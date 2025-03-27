@@ -1,4 +1,4 @@
-import logo from "/workspaces/QTify/src/assets/logo.png";
+import logo from "../../assets/logo.png";
 import styles from "./Logo.module.css";
 import { useNavigate } from "react-router-dom";
 

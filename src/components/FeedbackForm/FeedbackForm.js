@@ -1,5 +1,5 @@
 import styles from "./FeedbackForm.module.css";
-import { ReactComponent as CloseIcon } from "/workspaces/QTify/src/assets/close.svg";
+import { ReactComponent as CloseIcon } from "../../assets/close.svg";
 import { useSnackbar } from "notistack";
 
 const FeedbackForm = ({ setFeedbackFlag }) => {
