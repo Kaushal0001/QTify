@@ -4,8 +4,6 @@ import Chip from "@mui/material/Chip";
 import { Link } from "react-router-dom";
 
 const Card = ({ data, type, setCurrSong }) => {
-  //console.log(type);
-  // const getCard = (type) => {
   switch (type) {
     case "top": {
       const { image, follows, title, slug, songs } = data;

@@ -1,8 +1,8 @@
-import { ReactComponent as SeachIcon } from "/workspaces/QTify/src/assets/search-icon.svg";
+import { ReactComponent as SeachIcon } from "../../assets/search-icon.svg";
 import SearchItem from "../SearchItem/SearchItem";
 import styles from "./SearchBar.module.css";
 import { Link } from "react-router-dom";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 const SearchBar = ({ placeholder, data }) => {
   const [filteredData, setFilteredData] = useState(null);

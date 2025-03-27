@@ -1,11 +1,6 @@
-import Button from "../src/components/Button/Button.js";
-import NavBar from "../src/components/Navbar/NavBar.js";
-import Hero from "../src/components/Hero/Hero";
 import { useState, useEffect } from "react";
 import "./styles.css";
 import { fetchTopAlbums, fetchNewAlbums, fetchSongs } from "./api/api.js";
-import Section from "../src/components/Section/Section";
-import styles from "./App.module.css";
 import HomePage from "./pages/HomePage/HomePage";
 import { Routes, Route } from "react-router-dom";
 import AlbumPage from "../src/pages/AlbumPage/AlbumPage.js";

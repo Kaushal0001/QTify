@@ -1,7 +1,7 @@
 import styles from "./AlbumPage.module.css";
 import axios from "axios";
 import { useParams, Link } from "react-router-dom";
-import NavBar from "/workspaces/QTify/src/components/Navbar/NavBar.js";
+import NavBar from "../../components/Navbar/NavBar";
 import { ReactComponent as LibraryIcon } from "../../../src/assets/library.svg";
 import { ReactComponent as ShuffleIcon } from "../../../src/assets/shuffle.svg";
 import SongCard from "../../components/SongCard/SongCard";

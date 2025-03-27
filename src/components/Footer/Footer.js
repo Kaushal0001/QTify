@@ -1,6 +1,6 @@
 import styles from "./Footer.module.css";
-import { ReactComponent as PlayButton } from "/workspaces/QTify/src/assets/play.svg";
-import { ReactComponent as PauseButton } from "/workspaces/QTify/src/assets/pause.svg";
+import { ReactComponent as PlayButton } from "../../assets/play.svg";
+import { ReactComponent as PauseButton } from "../../assets/pause.svg";
 import LinearProgress from "@mui/material/LinearProgress";
 import { useEffect, useState } from "react";
 

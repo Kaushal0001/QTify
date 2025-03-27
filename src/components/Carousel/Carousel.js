@@ -1,7 +1,6 @@
 import styles from "./Carousel.module.css";
-import { Swiper, SwiperSlide, useSwiperSlide, useSwiper } from "swiper/react";
+import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
 import "swiper/css";
-import Card from "../Card/Card";
 import { Navigation } from "swiper/modules";
 import { useEffect } from "react";
 import CarouselLeftNavigation from "./CarouselLeftNavigation/CarouselLeftNavigation";
