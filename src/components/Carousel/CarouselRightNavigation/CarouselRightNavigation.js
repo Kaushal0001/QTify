@@ -1,7 +1,7 @@
 import styles from "./CarouselRightNavigation.module.css";
 import { useState, useEffect } from "react";
 import { useSwiper } from "swiper/react";
-import { ReactComponent as RightArrow } from "/workspaces/QTify/src/assets/rightArrow.svg";
+import { ReactComponent as RightArrow } from "../../../assets/rightArrow.svg";
 
 const CarouselRightNavigation = () => {
   const swiper = useSwiper();
