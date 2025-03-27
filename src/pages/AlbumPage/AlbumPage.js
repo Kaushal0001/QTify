@@ -2,9 +2,8 @@ import styles from "./AlbumPage.module.css";
 import axios from "axios";
 import { useParams, Link } from "react-router-dom";
 import NavBar from "/workspaces/QTify/src/components/Navbar/NavBar.js";
-import { ReactComponent as BackArrow } from "/workspaces/QTify/src/assets/backArrow.svg";
-import { ReactComponent as LibraryIcon } from "/workspaces/QTify/src/assets/library.svg";
-import { ReactComponent as ShuffleIcon } from "/workspaces/QTify/src/assets/shuffle.svg";
+import { ReactComponent as LibraryIcon } from "../../../src/assets/library.svg";
+import { ReactComponent as ShuffleIcon } from "../../../src/assets/shuffle.svg";
 import SongCard from "../../components/SongCard/SongCard";
 import Pagination from "@mui/material/Pagination";
 import { useEffect, useState } from "react";
@@ -59,7 +58,7 @@ const AlbumPage = ({
       />
       <div className={styles.arrowDiv}>
         <Link to="/">
-          <BackArrow />
+        <img src={`${process.env.PUBLIC_URL}/assets/backArrow.svg`} alt="Back Arrow" />
         </Link>
       </div>
       <div className={styles.wrapper}>
