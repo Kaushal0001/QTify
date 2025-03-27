@@ -1,5 +1,5 @@
 import Logo from "../Logo/Logo";
-import styles from "/workspaces/QTify/src/components/Navbar/NavBar.module.css";
+import styles from "./NavBar.module.css";
 import Button from "../Button/Button";
 import SearchBar from "../SearchBar/SearchBar";
 

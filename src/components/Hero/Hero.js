@@ -9,7 +9,7 @@ const Hero = () => {
       </div>
       <div>
         <img
-          src={`${process.env.PUBLIC_URL}/assets/vibrating-headphone.png`}
+          src={require("../../assets/vibrating-headphone.png")}
           width={212}
           alt="hero-section-headphones"
         />
