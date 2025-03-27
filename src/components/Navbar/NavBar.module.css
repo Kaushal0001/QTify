@@ -1,9 +1,9 @@
 .navbar {
   background-color: var(--primary-color);
-  width: 100%;
+  height: 74px;
+  width: 100vw;
+  padding: 0px 32px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  height: 70px;
-  padding-left: 32px; 
+  justify-content: space-between;
 }
